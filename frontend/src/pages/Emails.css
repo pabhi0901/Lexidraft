@@ -1,0 +1,97 @@
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-preview {
+  background: #2a2a3e;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.email-field {
+  margin-bottom: 20px;
+}
+
+.email-field:last-child {
+  margin-bottom: 0;
+}
+
+.field-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #a0a0b0;
+  font-size: 13px;
+}
+
+.field-content {
+  background: #1e1e2e;
+  border-radius: 6px;
+  padding: 12px;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.email-body {
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.copy-icon-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.copy-icon-btn:hover {
+  transform: scale(1.2);
+}
+
+.email-edit .form-group {
+  margin-bottom: 16px;
+}
+
+.email-edit .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.email-edit label {
+  color: #a0a0b0;
+  font-size: 13px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.email-edit input,
+.email-edit textarea {
+  width: 100%;
+  background: #2a2a3e;
+  border: 1px solid #3a3a4e;
+  border-radius: 8px;
+  padding: 12px;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.email-edit textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.email-edit input:focus,
+.email-edit textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
